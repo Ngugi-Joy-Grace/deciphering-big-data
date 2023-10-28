@@ -1,6 +1,6 @@
 from xml.etree import ElementTree as ET
 
-tree = ET.parse('../../data/unit 1/data-text.xml')
+tree = ET.parse('../../data/unit 2/data-text.xml')
 root = tree.getroot()
 print(root)
 
